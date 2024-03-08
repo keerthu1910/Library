@@ -1,0 +1,15 @@
+{
+  "name": "Library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:frontend" : "cd frontend & yarn run dev",
+    "start:backend" : "cd backend & yarn run dev",
+    "start":"concurrently \"yarn run start:frontend\" \"yarn run start:backend\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.4.2"
+  }
+}
