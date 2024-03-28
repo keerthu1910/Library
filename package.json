@@ -4,12 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:frontend" : "cd frontend & yarn run dev",
-    "start:backend" : "cd backend & yarn run dev",
-    "start":"concurrently \"yarn run start:frontend\" \"yarn run start:backend\""
+    "start:frontend": "cd frontend & yarn run dev",
+    "start:backend": "cd backend & yarn run dev",
+    "start": "concurrently \"yarn run start:frontend\" \"yarn run start:backend\""
   },
   "dependencies": {
     "concurrently": "^8.2.2",
+    "kill-port": "^2.0.1",
     "typescript": "^5.4.2"
   }
 }
