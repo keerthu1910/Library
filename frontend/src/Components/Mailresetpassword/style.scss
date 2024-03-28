@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;;
+}
+
+.backbutton{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #C26DBC;
+    color: white;
+}
+
+.resetpassword-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    top: 50px;
+    width:500px;
+    height:500px;
+    border: 1px solid black;
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input,label,p{
+            padding: 3px;
+            margin: 5px;
+        }
+        button{
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #C26DBC;
+            color: white;
+        }
+        .errortext{
+            color: red;
+            font-size: 12px;
+        }
+    }
+}
