@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.newuser-registration-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    form{
+       position: relative;
+       padding: 5px;
+       display: grid;
+       border: 1px solid white;
+       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+       grid-template-columns: 50fr 50fr;
+       align-items: center;
+       justify-content: center;
+       height: 500px;
+       width: 750px;
+       input,label,select,option{
+        margin: 5px;
+        padding: 5px;
+       }
+       button{
+        position: relative;
+        transform: translateX(120%);
+        left: 50%;
+        height: 25px;
+        width: 100px;
+        border: none;
+        background-color: #C26DBC;
+        color: white;
+        border-radius: 5px;
+       }
+    }
+}
